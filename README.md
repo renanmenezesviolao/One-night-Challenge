@@ -1,1 +1,1 @@
-# One-night-Challenge
+This application was a challenge made by a friend in which I should do a simple number guessing game, I started the project completely from the beginning and managed to finish it in 4 hours, it's something very simple but it's already a great performance, since the some time ago it took me a few days to make something relatively simple like this app, hope you like it.
