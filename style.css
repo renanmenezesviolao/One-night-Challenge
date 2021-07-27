@@ -1,0 +1,153 @@
+/*Formatting the html and body presets*/
+html, body {
+    margin:0;
+    border: none;
+    width: 100vw;
+    height: 100vh;
+    text-align: center;
+    background: rgb(113,6,219);
+    background: linear-gradient(135deg, rgba(113,6,219,1) 18%, rgba(139,10,198,1) 55%, rgba(114,0,134,1) 100%);
+    color: azure;
+}
+
+/*Here is the Style of the Elements there i created on HTML*/
+.header{
+    width: 100%;
+    text-align: center;    
+}
+
+h1{
+    margin-top: 0;
+    font-family: 'Bebas Neue', cursive;
+    padding-top: 20px;
+    text-decoration: underline;
+    text-shadow: 1px 1px 4px black;
+}
+
+p{
+    width: 50%;
+    margin-left:25%;
+    font-size: 120%;
+    text-shadow: 1px 1px 2px black;
+}
+
+#mygame{
+    padding: 20px 0px 20px 0px;
+    background-color: #026873;
+    background-image: linear-gradient(90deg, rgba(255,255,255,.07) 50%, transparent 50%),
+    linear-gradient(90deg, rgba(255,255,255,.13) 50%, transparent 50%),
+    linear-gradient(90deg, transparent 50%, rgba(255,255,255,.17) 50%),
+    linear-gradient(90deg, transparent 50%, rgba(255,255,255,.19) 50%);
+    background-size: 13px, 29px, 37px, 53px;
+    margin: 0% 5% 0% 5%;
+    border-radius: 5px;
+    box-shadow: 1px 1px 8px black;
+}
+
+#number-box{
+    margin:0;
+    border: none;
+    padding-bottom: 0.5%;
+    padding-top: 0.5%;
+    outline: none;
+    padding-right: 10%;
+    box-shadow: 1px 1px 8px black;
+    border-radius: 2px;
+}
+
+
+#submit-btn{
+    margin:0;
+    border: none;
+    padding-bottom: 0.5%;
+    padding-top: 0.5%;
+    outline: none;
+    border-radius: 2px;
+    box-shadow: 1px 1px 8px black;
+    color: rgb(220, 255, 243);
+    background-color: rgb(53 53 53);
+   
+
+}
+
+h4{
+
+     text-shadow: 1px 1px 6px black;
+     font-family: cursive;
+    letter-spacing: 2px;
+}
+
+
+
+/*From here on, it's only stylizations in the footer*/
+footer{
+    position:fixed;
+    bottom:0;
+    width:100%;
+    height:5%;   
+    background:rgb(59, 59, 59);
+    color: rgb(184, 184, 184);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+ }
+ 
+ .fa-facebook {
+     text-decoration: none;
+     color: #b5b5b5;
+     border: 0.1px solid white;
+     margin-left: 10px;
+     border-radius: 5px;
+     padding-left: 6px;
+     padding-right: 6px;
+     padding-top: 3px;
+     padding-bottom: 3px ;
+ }
+ 
+ .fa-instagram {
+     text-decoration: none;
+     color: #b5b5b5;
+     border: 0.1px solid white;
+     margin-left: 10px;
+     border-radius: 5px;
+     padding-left: 5px;
+     padding-right: 5px;
+     padding-top: 3px;
+     padding-bottom: 3px ;
+ }
+ .fa-facebook:hover{
+     color: rgb(255, 255, 255);
+     border-color: white;
+     background-color: rgb(0, 70, 128);
+ }
+ 
+ .fa-instagram:hover{
+     color:white;
+     border-color:white;
+     background: #f09433; 
+ background: -moz-linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%); 
+ background: -webkit-linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%); 
+ background: linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%); 
+ }
+ 
+ #myname{
+     font: 1.5rem;
+     margin-left: 10px;
+ }
+ .fa-whatsapp{
+     text-decoration: none;
+     color: #b5b5b5;
+     border: 0.1px solid white;
+     margin-left: 10px;
+     border-radius: 5px;
+     padding-left: 5px;
+     padding-right: 5px;
+     padding-top: 3px;
+     padding-bottom: 3px ;
+ }
+ 
+ .fa-whatsapp:hover {
+     color:white;
+     border-color:white;
+     background-color: rgb(77, 128, 0);
+ }
